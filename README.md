@@ -2,20 +2,22 @@
 # Gail-Donkeycar 
 Implementing deep IRL and GAIL based techniques in Donkeycar.
 
-# Author 
+## Author 
 Harshita Chaudhary  
 Minh Dang  
 
-# Requirements
-Python version:  
-Library Packages:  
+## Requirements
+Python version: 3.7
+Library Packages: 
+cv2
+  
 
-# Using Expert Trajactories
+## Using Expert Trajactories
 1. Generating Expert Trajactories:
 2. Training model with Expert Trajactories:
 3. Result:
 
-# TODO
+## TODO
 | Metrics		    | Values		 |
 | -----------   | -----------|
 | generatorloss	| 0.96885		 |
@@ -26,7 +28,7 @@ Library Packages:
 | expertacc		  | 0.83398		 |
 
 
-# Using Human Input
+## Using Human Input
 1. Collecting data from the simulator:
 2. Preprocess images:
 3. Training model with Segmented Images:
@@ -41,6 +43,6 @@ Library Packages:
 | generatoracc	| 0.58789		 |
 | expertacc		  | 0.83398		 |
 
-# Acknowledgements
+## Acknowledgements
 The base source code has been taken from stable-baselines repository: https://github.com/hill-a/stable-baselines.  
 Segmentation idea has been taken from this article: https://flyyufelix.github.io/2018/09/11/donkey-rl-simulation.html.  
