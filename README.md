@@ -4,7 +4,7 @@ Implementing deep IRL and GAIL based techniques in Donkeycar.
 
 ![Donkeycar](rl.gif)
 
-## Author 
+## Authors
 Harshita Chaudhary  
 Minh Dang  
 
