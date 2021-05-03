@@ -3,22 +3,27 @@
 Implementing deep IRL and GAIL based techniques in Donkeycar.
 
 # Author 
-Harshita Chaudhary
-Minh Dang
+Harshita Chaudhary  
+Minh Dang  
 
 # Requirements
-Python version:
-Library Packages:
+Python version:  
+Library Packages:  
 
 # Using Expert Trajactories
 1. Generating Expert Trajactories:
 2. Training model with Expert Trajactories:
 3. Result:
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+# TODO
+| Metrics		    | Values		 |
+| -----------   | -----------|
+| generatorloss	| 0.96885		 |
+| expertloss	  | 0.30522		 |
+| entropy		    | 0.38185		 |
+| entropyloss	  | -0.00038	 |
+| generatoracc	| 0.58789		 |
+| expertacc		  | 0.83398		 |
 
 
 # Using Human Input
