@@ -1,6 +1,7 @@
 # gail-donkeycar
 Implementing deep IRL and GAIL based techniques in Donkeycar
 
-##Acknowledgements
+## Acknowledgements
 
 The base source code has been taken from stable-baselines repository: https://github.com/hill-a/stable-baselines
+Segmentation idea has been taken from this article: 
