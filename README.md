@@ -37,10 +37,14 @@ Library Packages:
 2. Download Donkeycar simulator application
 3. Create car using the command `donkey createcar --path ~/mycar`
 4. Go to the directory using command `cd ~/mycar`
-5. Edit myconfig.py to enable donkey gym simulator wrapper, replace <path_to_simulator_app>:
+5. Edit myconfig.py and add the following variables to enable donkey gym simulator wrapper(replace <path_to_simulator_app>):
+
     DONKEY_GYM = True
+    
     DONKEY_SIM_PATH = "<path_to_simulator_app>/donkey_sim.x86_64"
+    
     DONKEY_GYM_ENV_NAME = "donkey-generated-track-v0"
+    
 7. Start the simulator using `python manage.py drive`
 8. Drive using the web interface: localhost:8887/drive
 9. Images are saved in data/images and catalog files are saved in data/
