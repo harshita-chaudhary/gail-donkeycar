@@ -64,7 +64,12 @@ Use the following command:
 Use the following command:
     `python runDonkey.py`
 
-The pretrained model can be found here:
+The pretrained model can be found here: https://drive.google.com/drive/u/0/folders/1r7TlukKMspK2FxCYW77V7w5t6c3kQxGZ
+
+The two files are: 
+
+1. Model: gail_donkeycar.zip which is the 
+3. Expert dataset: expert_donkeycar_expert.npz
 
 ## Acknowledgements
 The base source code has been taken from stable-baselines repository: https://github.com/hill-a/stable-baselines.  
