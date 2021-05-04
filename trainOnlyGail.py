@@ -10,5 +10,5 @@ dataset = ExpertDataset(expert_path='expert_donkeycar_expert.npz', traj_limitati
 model = GAIL('CnnPolicy', 'donkey-generated-track-v0', dataset, verbose=1)
 
 model.learn(total_timesteps=100000)
-model.save("gail_donkeycar1")
+model.save("gail_donkeycar")
 
